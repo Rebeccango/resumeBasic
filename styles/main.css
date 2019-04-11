@@ -5,8 +5,20 @@ html, body {
   padding: 0px;
 }
 
-h* {
+html h*, body h* {
   font-family: "Ubuntu", sans-serif;
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+h4 * {
+  text-decoration: none;
+  color: #261b21;
 }
 
 li {
@@ -15,9 +27,54 @@ li {
 
 li a {
   text-decoration: none;
+  color: #261b21;
 }
 
-#technicalExp {
-  border: solid black 2px;
+.header_div--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  margin: 2rem;
+  padding: 0.25rem;
+  border-bottom: solid black 2px;
+}
+
+.header_div--container .header_div--name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_div--container .header_div--name h1 {
+  margin: 0;
+}
+
+.header_div--container .header_div--name h6 {
+  margin-bottom: 0.25rem;
+}
+
+.navbar--tabletDesk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navbar--tabletDesk > *, .navbar--tabletDesk * {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
