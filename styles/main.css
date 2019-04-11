@@ -1,0 +1,23 @@
+html, body {
+  background-color: #d5d4da;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+#technicalExp {
+  border: solid black 2px;
+}
+/*# sourceMappingURL=main.css.map */

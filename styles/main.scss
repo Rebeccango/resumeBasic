@@ -1,0 +1,36 @@
+// VARIABLES 
+    //Text
+$Paragraph-font:  'Raleway', sans-serif;
+$Headers-font: 'Ubuntu', sans-serif;
+    //Colour Palette
+$Primary: rgb(199, 120, 53);
+$Secondary: rgb(213, 212, 218);
+$Tertiary: rgb(175, 121, 85);
+$Text: rgb(38, 27, 33);
+
+// GENERAL ----------------------------------
+html,body{
+    background-color: $Secondary;
+    font-family: $Paragraph-font;
+    margin: 0px;
+    padding: 0px;
+}
+
+h*{
+    font-family: $Headers-font;
+}
+
+li{
+ list-style: none;
+ a{
+     text-decoration: none;
+ }    
+}
+
+//HEADING ----------------------------------------------------
+
+
+// RESUME SECTIONS & SUBHEADINGS 
+#technicalExp{
+    border: solid black 2px;
+}
