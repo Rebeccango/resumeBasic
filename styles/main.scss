@@ -10,7 +10,15 @@ $Text: rgb(38, 27, 33);
     //MEDIA QUERY BREAKS
 $mobile: 320px;
 $tablet: 768px;
-$desktop: 1440px;
+$desktop: 1440pxs;
+
+//MIXINS
+
+@mixin sectionPadding {
+    margin: 2rem;
+    padding: 0.25rem;
+}
+
 // GENERAL ----------------------------------
 html,body{
     background-color: $Secondary;
@@ -47,8 +55,7 @@ li{
     display:flex;
     justify-content: space-between;
     align-content: flex-start;
-    margin: 2rem;
-    padding: 0.25rem;
+    @include sectionPadding();
     border-bottom: solid black 2px;
         .header_div--name{
             display: flex;
@@ -76,6 +83,11 @@ li{
     // border: solid black 2px;
 }
 
+//MAIN------------------------------------------
+
+main{
+    @include sectionPadding();
+}
 
 //FOOTER -------------------------------
 
