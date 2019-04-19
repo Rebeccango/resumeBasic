@@ -1,1 +1,1 @@
-web: node index.js
+web: node index.jsheroku git:remote -a rebecca-ngo-resume
