@@ -41,13 +41,15 @@ h4{
     }
 }
 
-
-li{
- list-style: none;
-    a{
-        text-decoration: none;
-        color: $Text;
-    }    
+ul{ 
+    padding-left: 1rem;
+    li{
+        list-style: square;
+        a{
+            text-decoration: none;
+            color: $Text;
+        }    
+    }
 }
 
 //HEADER ----------------------------------------------------

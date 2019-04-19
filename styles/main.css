@@ -21,11 +21,15 @@ h4 * {
   color: #261b21;
 }
 
-li {
-  list-style: none;
+ul {
+  padding-left: 1rem;
 }
 
-li a {
+ul li {
+  list-style: square;
+}
+
+ul li a {
   text-decoration: none;
   color: #261b21;
 }
