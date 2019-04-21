@@ -1,1 +1,1 @@
-web: node index.jsheroku git:remote -a rebecca-ngo-resume
+web: vendor/bin/heroku-php-apache2
