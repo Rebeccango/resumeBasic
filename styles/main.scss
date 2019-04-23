@@ -56,12 +56,12 @@ ul{
 .header_div--container{
     display:flex;
     justify-content: space-between;
+    flex-direction: column;  
     align-content: flex-start;
     @include sectionPadding();
     border-bottom: solid black 2px;
-    @media ( max-width: $mobile) {
-        flex-direction: column;  
-        flex-wrap: wrap;
+    @media ( min-width: $tablet) {
+        flex-direction: row; 
     }
         .header_div--name{
             display: flex;

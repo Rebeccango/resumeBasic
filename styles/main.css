@@ -41,6 +41,10 @@ ul li a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: start;
       align-content: flex-start;
   margin: 2rem;
@@ -48,14 +52,12 @@ ul li a {
   border-bottom: solid black 2px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 768px) {
   .header_div--container {
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
