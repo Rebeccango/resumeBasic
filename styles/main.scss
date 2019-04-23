@@ -82,8 +82,8 @@ ul{
     .div--contactInfo{
         padding: auto 1rem;
         display: inline-block;
-        margin-bottom: 0.25rem;  
-    }
+        margin-bottom: 0.25rem; 
+    } 
 }
 
 .navbar--tabletDesk{
@@ -95,18 +95,14 @@ ul{
 }
 
 // RESUME SECTIONS & SUBHEADINGS 
-#technicalExp{
+// #technicalExp{
     // border: solid black 2px;
-}
+// }
 
 //MAIN------------------------------------------
 
 main{
-    @include sectionPadding();
+    @include sectionPadding(); 
 }
 
-//FOOTER -------------------------------
-
-footer{
-
-}
+//FOOTER ------------------------------- 
