@@ -54,6 +54,8 @@ ul li a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -73,6 +75,7 @@ ul li a {
 @media (max-width: 320px) {
   .header_div--container .header_div--name {
     margin-bottom: 0.25rem;
+    display: inline-block;
   }
 }
 
@@ -86,6 +89,8 @@ ul li a {
 
 .header_div--container .div--contactInfo {
   padding: auto 1rem;
+  display: inline-block;
+  margin-bottom: 0.25rem;
 }
 
 .navbar--tabletDesk {

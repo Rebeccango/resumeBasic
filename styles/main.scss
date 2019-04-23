@@ -61,6 +61,7 @@ ul{
     border-bottom: solid black 2px;
     @media ( max-width: $mobile) {
         flex-direction: column;  
+        flex-wrap: wrap;
     }
         .header_div--name{
             display: flex;
@@ -68,6 +69,7 @@ ul{
             justify-content: space-between;    
             @media ( max-width: $mobile) {
                 margin-bottom: 0.25rem;  
+                display: inline-block;
             }
         
             h1{
@@ -79,6 +81,8 @@ ul{
         }
     .div--contactInfo{
         padding: auto 1rem;
+        display: inline-block;
+        margin-bottom: 0.25rem;  
     }
 }
 
