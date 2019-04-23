@@ -48,6 +48,15 @@ ul li a {
   border-bottom: solid black 2px;
 }
 
+@media (max-width: 320px) {
+  .header_div--container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .header_div--container .header_div--name {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,12 +70,22 @@ ul li a {
           justify-content: space-between;
 }
 
+@media (max-width: 320px) {
+  .header_div--container .header_div--name {
+    margin-bottom: 0.25rem;
+  }
+}
+
 .header_div--container .header_div--name h1 {
   margin: 0;
 }
 
 .header_div--container .header_div--name h6 {
   margin-bottom: 0.25rem;
+}
+
+.header_div--container .div--contactInfo {
+  padding: auto 1rem;
 }
 
 .navbar--tabletDesk {

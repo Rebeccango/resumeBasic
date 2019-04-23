@@ -59,10 +59,17 @@ ul{
     align-content: flex-start;
     @include sectionPadding();
     border-bottom: solid black 2px;
+    @media ( max-width: $mobile) {
+        flex-direction: column;  
+    }
         .header_div--name{
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-between;    
+            @media ( max-width: $mobile) {
+                margin-bottom: 0.25rem;  
+            }
+        
             h1{
                 margin: 0;
             }
@@ -70,6 +77,9 @@ ul{
                 margin-bottom: 0.25rem;
             }
         }
+    .div--contactInfo{
+        padding: auto 1rem;
+    }
 }
 
 .navbar--tabletDesk{
