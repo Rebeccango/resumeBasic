@@ -14,7 +14,7 @@ $desktop: 1440pxs;
 
 //MIXINS
 
-@mixin sectionPadding {
+@mixin sectionSpacingGeneral {
     margin: 2rem;
     padding: 0.25rem;
 }
@@ -58,7 +58,7 @@ ul{
     justify-content: space-between;
     flex-direction: column;  
     align-content: flex-start;
-    @include sectionPadding();
+    @include sectionSpacingGeneral();
     border-bottom: solid black 2px;
     @media ( min-width: $tablet) {
         flex-direction: row; 
@@ -86,6 +86,15 @@ ul{
     } 
 }
 
+#professionalSummary{
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    margin: auto;
+    @include sectionSpacingGeneral();
+    padding: 1rem;
+    text-align: left;
+}
+
 .navbar--tabletDesk{
     display: flex;
     justify-content: space-evenly;
@@ -102,7 +111,7 @@ ul{
 //MAIN------------------------------------------
 
 main{
-    @include sectionPadding(); 
+    @include sectionSpacingGeneral(); 
 }
 
 //FOOTER ------------------------------- 

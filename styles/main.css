@@ -95,6 +95,16 @@ ul li a {
   margin-bottom: 0.25rem;
 }
 
+#professionalSummary {
+  background-color: #e9e5e5;
+  border-radius: 4px;
+  margin: auto;
+  margin: 2rem;
+  padding: 0.25rem;
+  padding: 1rem;
+  text-align: left;
+}
+
 .navbar--tabletDesk {
   display: -webkit-box;
   display: -ms-flexbox;
