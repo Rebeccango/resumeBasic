@@ -2,6 +2,7 @@
     //TEXT
 $Paragraph-font:  'Raleway', sans-serif;
 $Headers-font: 'Ubuntu', sans-serif;
+$logo-font: 'Vibur', cursive;
     //COLOUR PALETTE
 $Primary: rgb(199, 120, 53);
 $Secondary: rgb(213, 212, 218);
@@ -20,6 +21,7 @@ $desktop: 1440pxs;
 }
 
 // GENERAL ----------------------------------
+
 html,body{
     background-color: $Secondary;
     font-family: $Paragraph-font;
@@ -43,7 +45,7 @@ h4{
 
 ul{ 
     padding-left: 1rem;
-    li{
+    li{ 
         list-style: square;
         a{
             text-decoration: none;
